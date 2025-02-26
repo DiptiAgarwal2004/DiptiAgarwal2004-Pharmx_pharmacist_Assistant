@@ -1,0 +1,130 @@
+/* Import Handwritten Font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
+/* General Styles */
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #285cfc; /* Full page blue */
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    width: 96%;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adding shadow for depth */
+    z-index: 1000;
+}
+
+/* Brand Name */
+.brand {
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.brand:hover {
+    color: #FFD700; /* Gold color effect on hover */
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links span {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.nav-links span:hover {
+    background: #FFD700; /* Gold highlight effect */
+    color: black;
+}
+
+
+/* Hero Section */
+.hero {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero img {
+    width: 700px; /* Adjust image size */
+    height: auto;
+    margin-top: 45px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 600px;
+}
+
+/* Forms */
+.form-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Ensuring it adapts to screen width */
+}
+
+/* Form Styling */
+form {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px; /* Increased padding */
+    border-radius: 10px;
+    width: 500px; /* Increased width */
+    max-width: 90%; /* Ensures it doesn't overflow on smaller screens */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Increased gap for better spacing */
+}
+
+/* Input Fields */
+input {
+    padding: 12px; /* Increased padding */
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: calc(100% - 24px); /* Ensuring input fits within the form */
+    font-size: 16px; /* Better readability */
+}
+
+/* Buttons */
+button {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: white;
+    color: #285cfc;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px; /* Better button size */
+}
+
+button:hover {
+
+    background: #FFD700; /* Gold highlight effect */
+    color: black;
+}
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet Map with Search</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/map.css') }}">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="brand">PharmX</div>
+        <div class="nav-links">
+            <button id="pharmacyListLink" onclick="redirectToPharmacyList()">Pharmacies List</button>
+            <a href="/map">Map</a>
+        </div>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/profile.png') }}" alt="Logo">
+        </div>
+    </div>
+
+    <div id="map"></div>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Enter location name">
+        <button onclick="searchLocation()">Search</button>
+    </div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+
+</body>
+</html>

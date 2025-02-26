@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #285cfc;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    width: 97%;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adding shadow for depth */
+    z-index: 1000;
+}
+
+/* Brand */
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.brand:hover {
+    color: #FFD700; /* Gold color effect on hover */
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background: #FFD700; /* Gold highlight effect */
+    color: black;
+}
+
+/* Logo */
+.logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.logo img:hover {
+    transform: scale(1.1);
+}
+/* Map */
+#map {
+    width: 100%;
+    height: 80vh;
+    margin-top: 120px; /* Prevent map from being hidden behind the navbar */
+}
+#pharmacyListLink{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: rgba(15, 12, 68, 0.8); /* Semi-transparent black background */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+#pharmacyListLink:hover {
+color: black;
+    background: #FFD700; /* Gold color effect on hover */
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug Frequencies Trend</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/trend.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <div class="brand">PharmX</div>
+        <div class="nav-links">
+            <a href="/list">Pharmacies List</a>
+            <a href="/map">Map</a> 
+            <a href="/trend">Trend</a>
+
+        
+        </div>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/profile.png') }}" alt="Logo">
+        </div>
+    </div>
+    <div id="trend">
+    <h1>Drug Frequencies Trend</h1>
+    <div id="graph">
+        {{ graph | safe }}  <!-- Use 'safe' to render the HTML directly -->
+    </div>
+</div>
+</body>
+</html>

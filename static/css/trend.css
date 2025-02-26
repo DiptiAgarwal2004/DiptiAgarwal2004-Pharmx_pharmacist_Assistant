@@ -1,0 +1,111 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #285cfc;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    width: 97%;  /* Change to 100% for full width */
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.brand {
+    font-size: 24px;  /* Increased font size */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.brand:hover {
+    color: #FFD700;  /* Gold color on hover */
+}
+
+.logo img {
+    width: 60px;  /* Logo size */
+    height: 60px;
+    border-radius: 50%;  /* Circular logo */
+    transition: transform 0.3s;  /* Smooth transform on hover */
+}
+
+.logo img:hover {
+    transform: scale(1.1);  /* Scale logo on hover */
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;  /* Space between links */
+}
+
+.nav-links a {
+    cursor: pointer;
+    font-size: 18px;  /* Font size for links */
+    font-weight: bold;
+    text-decoration: none;  /* No underline */
+    color: white;
+    transition: background 0.3s, color 0.3s;  /* Smooth transitions */
+    padding: 8px 15px;  /* Padding for links */
+    border-radius: 5px;  /* Rounded corners */
+}
+
+.nav-links a:hover {
+    background: #FFD700;  /* Background color on hover */
+    color: black;  /* Text color on hover */
+}
+
+.container {
+    max-width: 800px;  /* Max width of the container */
+    margin: 100px auto 50px;  /* Centered with top and bottom margins */
+    padding: 20px;
+    background: white;  /* White background */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);  /* Shadow effect */
+}
+
+h2 {
+    text-align: center;  /* Centered heading */
+    color: #333;  /* Dark text color */
+}
+
+table {
+    width: 100%;  /* Full width table */
+    border-collapse: collapse;  /* Collapse borders */
+    margin-top: 20px;  /* Margin above table */
+}
+
+table, th, td {
+    border: 1px solid #ddd;  /* Light gray borders */
+}
+
+th, td {
+    padding: 12px;  /* Padding in cells */
+    text-align: left;  /* Left alignment */
+}
+
+th {
+    background: #FFD700;  /* Header background color */
+    color: black;  /* Header text color */
+}
+
+tr:hover {
+    background-color: #f1f1f1;  /* Light background on row hover */
+}
+#trend{
+    margin-top: 100px;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+#graph{
+    width: 80%;
+    margin-left: 170px;
+}

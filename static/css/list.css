@@ -1,0 +1,89 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    width: 96%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.brand:hover {
+    color: #FFD700;
+}
+.logo img:hover {
+    transform: scale(1.1);
+}
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background: #FFD700;
+    color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px auto 50px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+.logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #FFD700;
+    color: black;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}

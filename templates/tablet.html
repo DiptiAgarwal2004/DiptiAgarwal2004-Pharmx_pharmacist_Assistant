@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablet Prediction</title>
+    
+    <!-- Link external CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tablet.css') }}">
+    
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="brand">PharmX</div>
+        <div class="nav-links">
+            <a href="/home">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="/tablet">Tablet Prediction</a>
+        </div>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/profile.png') }}" alt="Logo">
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2>Tablet Prediction</h2>
+        
+        <!-- Image Upload Form -->
+        <input type="file" id="imageInput" accept="image/*" onchange="previewImage(event)">
+        <button onclick="uploadImage()">Upload</button>
+
+        <!-- Preview Selected Image -->
+        <img id="preview" style="display: none; max-width: 100%; height: auto; margin-top: 10px;">
+
+        <!-- Prediction Results -->
+        <div id="result"></div>
+        <label>Drug name:</label>
+        <input type="text" id="drug"><br><br>
+
+         <label>Confidence:</label>
+         <input type="text" id="confidence"><br><br>
+    </div>
+
+    <!-- Link external JS -->
+    <script src="{{ url_for('static', filename='js/tablet.js') }}"></script>
+
+</body>
+</html>
