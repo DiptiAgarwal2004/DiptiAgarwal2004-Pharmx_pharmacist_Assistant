@@ -65,7 +65,11 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
 
    git clone https://github.com/DiptiAgarwal2004/pharmx.git
-   
+
+   ## Access Models  
+
+[Click here to access the models](https://drive.google.com/drive/folders/1uljdaxVn9Hy881mMIdjXxa2LF5wM7rgA)  
+
 2. Navigate to the project directory:
    
    cd pharmx
