@@ -93,7 +93,7 @@ Access the application in your web browser at [http://localhost:5000](http://loc
 ## Project Demo 🎥
 Watch the demo video below:
 
-[![Watch the video](https://github.com/user-attachments/assets/b7730058-abdf-43df-acc7-18f69e5b5455)
+!(https://github.com/user-attachments/assets/b7730058-abdf-43df-acc7-18f69e5b5455)
 
 
 Follow the prompts to log in or sign up as a user, where you can upload a prescription image for analysis. Use the available features to verify doctor credentials, predict medication based on symptoms and prescriptions, and locate nearby pharmacies.
