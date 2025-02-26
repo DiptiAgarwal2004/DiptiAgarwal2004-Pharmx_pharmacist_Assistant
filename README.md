@@ -54,7 +54,7 @@ By leveraging technology, PharmX aims to ensure accurate recognition of patient 
 - **Backend Development**: 
   - **Flask** framework for server-side logic and handling requests.
 - **Database Management**: 
-  - [Specify your database technology here, e.g., SQLite, PostgreSQL] for storing patient and prescription data.
+  - MongoDB Compass for storing patient and prescription data.
 - **Data Annotation**: 
   - Utilizes **Roboflow API** for efficient labeling and preparation of training datasets.
 
