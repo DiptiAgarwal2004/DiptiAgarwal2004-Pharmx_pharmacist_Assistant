@@ -96,7 +96,7 @@ Watch the demo video below:
 https://github.com/user-attachments/assets/b7730058-abdf-43df-acc7-18f69e5b5455
 
 
-[🎥 Drive link for demo]([https://drive.google.com/drive/folders/1uljdaxVn9Hy881mMIdjXxa2LF5wM7rgA](https://drive.google.com/file/d/1uJb6vyYuf9SH3HcNjo_EUcsLObVyPQcE/view?usp=sharing ))  
+🎥 Drive link for demo : [Link](https://drive.google.com/file/d/1uJb6vyYuf9SH3HcNjo_EUcsLObVyPQcE/view?usp=sharing) 
 
 
 Follow the prompts to log in or sign up as a user, where you can upload a prescription image for analysis. Use the available features to verify doctor credentials, predict medication based on symptoms and prescriptions, and locate nearby pharmacies.
